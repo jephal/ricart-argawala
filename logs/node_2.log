@@ -1,0 +1,58 @@
+2025/11/12 19:56:12.944758 Node 2 gRPC server listening on port 5002
+2025/11/12 19:56:42.947543 Node 2 connected to Node 1 at localhost:5001
+2025/11/12 19:56:42.947810 Node 2 connected to Node 3 at localhost:5003
+2025/11/12 19:56:46.710715 Node 2 received REQUEST from Node 1 with timestamp 1
+2025/11/12 19:56:46.710769 Node 2 sent REPLY to Node 1
+2025/11/12 19:56:49.950209 Node 2 requesting Critical Section with timestamp 4
+2025/11/12 19:56:49.950320 Node 2 waiting for replies from 2 nodes
+2025/11/12 19:56:49.951208 Node 2 sent REQUEST to Node 1 with timestamp 4
+2025/11/12 19:56:49.951374 Node 2 received REPLY from Node 3
+2025/11/12 19:56:49.951377 Node 2 received REPLY from Node 1
+2025/11/12 19:56:49.951587 Node 2 sent REQUEST to Node 3 with timestamp 4
+2025/11/12 19:56:50.050958 Node 2 received all 2 replies, entering critical section
+2025/11/12 19:56:50.051112 Node 2 ENTERED Critical Section
+2025/11/12 19:56:52.051604 Node 2 EXITED Critical Section
+2025/11/12 19:56:52.813801 Node 2 received REQUEST from Node 1 with timestamp 8
+2025/11/12 19:56:52.813849 Node 2 sent REPLY to Node 1
+2025/11/12 19:56:53.238022 Node 2 received REQUEST from Node 3 with timestamp 11
+2025/11/12 19:56:53.238065 Node 2 sent REPLY to Node 3
+2025/11/12 19:56:57.054256 Node 2 requesting Critical Section with timestamp 14
+2025/11/12 19:56:57.054338 Node 2 waiting for replies from 2 nodes
+2025/11/12 19:56:57.088831 Node 2 sent REQUEST to Node 1 with timestamp 14
+2025/11/12 19:56:57.088929 Node 2 received REPLY from Node 1
+2025/11/12 19:56:57.088985 Node 2 sent REQUEST to Node 3 with timestamp 14
+2025/11/12 19:56:57.088998 Node 2 received REPLY from Node 3
+2025/11/12 19:56:57.154607 Node 2 received all 2 replies, entering critical section
+2025/11/12 19:56:57.154694 Node 2 ENTERED Critical Section
+2025/11/12 19:56:58.916907 Node 2 received REQUEST from Node 1 with timestamp 17
+2025/11/12 19:56:58.916939 Node 2 deferred request from Node 1
+2025/11/12 19:56:59.154906 Node 2 EXITED Critical Section
+2025/11/12 19:56:59.155039 Node 2 sent deferred REPLY to Node 1
+2025/11/12 19:57:02.947434 Node 2 received REQUEST from Node 3 with timestamp 20
+2025/11/12 19:57:02.947490 Node 2 sent REPLY to Node 3
+2025/11/12 19:57:04.155592 Node 2 requesting Critical Section with timestamp 23
+2025/11/12 19:57:04.155692 Node 2 waiting for replies from 2 nodes
+2025/11/12 19:57:04.156604 Node 2 sent REQUEST to Node 1 with timestamp 23
+2025/11/12 19:57:04.156638 Node 2 sent REQUEST to Node 3 with timestamp 23
+2025/11/12 19:57:04.156659 Node 2 received REPLY from Node 1
+2025/11/12 19:57:05.048707 Node 2 received REPLY from Node 3
+2025/11/12 19:57:05.060052 Node 2 received all 2 replies, entering critical section
+2025/11/12 19:57:05.060101 Node 2 ENTERED Critical Section
+2025/11/12 19:57:05.220567 Node 2 received REQUEST from Node 1 with timestamp 26
+2025/11/12 19:57:05.220588 Node 2 deferred request from Node 1
+2025/11/12 19:57:07.061293 Node 2 EXITED Critical Section
+2025/11/12 19:57:07.061351 Node 2 sent deferred REPLY to Node 1
+2025/11/12 19:57:11.050225 Node 2 received REQUEST from Node 3 with timestamp 29
+2025/11/12 19:57:11.050257 Node 2 sent REPLY to Node 3
+2025/11/12 19:57:12.062292 Node 2 requesting Critical Section with timestamp 32
+2025/11/12 19:57:12.062382 Node 2 waiting for replies from 2 nodes
+2025/11/12 19:57:12.096739 Node 2 sent REQUEST to Node 1 with timestamp 32
+2025/11/12 19:57:12.096899 Node 2 sent REQUEST to Node 3 with timestamp 32
+2025/11/12 19:57:12.096966 Node 2 received REPLY from Node 1
+2025/11/12 19:57:13.127786 Node 2 received REQUEST from Node 1 with timestamp 35
+2025/11/12 19:57:13.127848 Node 2 deferred request from Node 1
+2025/11/12 19:57:13.151921 Node 2 received REPLY from Node 3
+2025/11/12 19:57:13.199352 Node 2 received all 2 replies, entering critical section
+2025/11/12 19:57:13.199398 Node 2 ENTERED Critical Section
+2025/11/12 19:57:15.200530 Node 2 EXITED Critical Section
+2025/11/12 19:57:15.200583 Node 2 sent deferred REPLY to Node 1

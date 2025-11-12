@@ -1,0 +1,55 @@
+2025/11/12 19:56:15.235296 Node 3 gRPC server listening on port 5003
+2025/11/12 19:56:45.236751 Node 3 connected to Node 1 at localhost:5001
+2025/11/12 19:56:45.236900 Node 3 connected to Node 2 at localhost:5002
+2025/11/12 19:56:46.710730 Node 3 received REQUEST from Node 1 with timestamp 1
+2025/11/12 19:56:46.710769 Node 3 sent REPLY to Node 1
+2025/11/12 19:56:49.950942 Node 3 received REQUEST from Node 2 with timestamp 4
+2025/11/12 19:56:49.951004 Node 3 sent REPLY to Node 2
+2025/11/12 19:56:52.813857 Node 3 received REQUEST from Node 1 with timestamp 8
+2025/11/12 19:56:52.813904 Node 3 sent REPLY to Node 1
+2025/11/12 19:56:53.237339 Node 3 requesting Critical Section with timestamp 11
+2025/11/12 19:56:53.237472 Node 3 waiting for replies from 2 nodes
+2025/11/12 19:56:53.238353 Node 3 sent REQUEST to Node 2 with timestamp 11
+2025/11/12 19:56:53.238456 Node 3 sent REQUEST to Node 1 with timestamp 11
+2025/11/12 19:56:53.238548 Node 3 received REPLY from Node 2
+2025/11/12 19:56:54.914773 Node 3 received REPLY from Node 1
+2025/11/12 19:56:54.942475 Node 3 received all 2 replies, entering critical section
+2025/11/12 19:56:54.942593 Node 3 ENTERED Critical Section
+2025/11/12 19:56:56.943372 Node 3 EXITED Critical Section
+2025/11/12 19:56:57.054727 Node 3 received REQUEST from Node 2 with timestamp 14
+2025/11/12 19:56:57.088722 Node 3 sent REPLY to Node 2
+2025/11/12 19:56:58.916818 Node 3 received REQUEST from Node 1 with timestamp 17
+2025/11/12 19:56:58.916876 Node 3 sent REPLY to Node 1
+2025/11/12 19:57:02.946929 Node 3 requesting Critical Section with timestamp 20
+2025/11/12 19:57:02.947036 Node 3 waiting for replies from 2 nodes
+2025/11/12 19:57:02.947601 Node 3 sent REQUEST to Node 1 with timestamp 20
+2025/11/12 19:57:02.947789 Node 3 received REPLY from Node 2
+2025/11/12 19:57:02.947848 Node 3 sent REQUEST to Node 2 with timestamp 20
+2025/11/12 19:57:02.947857 Node 3 received REPLY from Node 1
+2025/11/12 19:57:03.047299 Node 3 received all 2 replies, entering critical section
+2025/11/12 19:57:03.047353 Node 3 ENTERED Critical Section
+2025/11/12 19:57:04.156224 Node 3 received REQUEST from Node 2 with timestamp 23
+2025/11/12 19:57:04.156265 Node 3 deferred request from Node 2
+2025/11/12 19:57:05.048320 Node 3 EXITED Critical Section
+2025/11/12 19:57:05.048365 Node 3 sent deferred REPLY to Node 2
+2025/11/12 19:57:05.220637 Node 3 received REQUEST from Node 1 with timestamp 26
+2025/11/12 19:57:05.220671 Node 3 sent REPLY to Node 1
+2025/11/12 19:57:11.049574 Node 3 requesting Critical Section with timestamp 29
+2025/11/12 19:57:11.049771 Node 3 waiting for replies from 2 nodes
+2025/11/12 19:57:11.050545 Node 3 sent REQUEST to Node 1 with timestamp 29
+2025/11/12 19:57:11.050546 Node 3 sent REQUEST to Node 2 with timestamp 29
+2025/11/12 19:57:11.050742 Node 3 received REPLY from Node 1
+2025/11/12 19:57:11.050769 Node 3 received REPLY from Node 2
+2025/11/12 19:57:11.150360 Node 3 received all 2 replies, entering critical section
+2025/11/12 19:57:11.150415 Node 3 ENTERED Critical Section
+2025/11/12 19:57:12.063409 Node 3 received REQUEST from Node 2 with timestamp 32
+2025/11/12 19:57:12.096521 Node 3 deferred request from Node 2
+2025/11/12 19:57:13.127786 Node 3 received REQUEST from Node 1 with timestamp 35
+2025/11/12 19:57:13.127883 Node 3 deferred request from Node 1
+2025/11/12 19:57:13.151436 Node 3 EXITED Critical Section
+2025/11/12 19:57:13.151478 Node 3 sent deferred REPLY to Node 2
+2025/11/12 19:57:13.151487 Node 3 sent deferred REPLY to Node 1
+2025/11/12 19:57:19.152970 Node 3 requesting Critical Section with timestamp 39
+2025/11/12 19:57:19.153080 Node 3 waiting for replies from 2 nodes
+2025/11/12 19:57:19.154048 Node 3 failed to send REQUEST to Node 1: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5001: connect: connection refused"
+2025/11/12 19:57:19.154053 Node 3 failed to send REQUEST to Node 2: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:5002: connect: connection refused"

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package ricart_agrawala;
+option go_package = "./;ricart_agrawala";
+
+service RicartAgrawala {
+  rpc RequestAccess(Message) returns (Ack);
+  rpc ReplyAccess(Message) returns (Ack);
+}
+
+message Message {
+  int32 type = 1;
+  int32 process_id = 2;
+  int64 timestamp = 3;
+}
+
+message Ack {
+  bool success = 1;
+}
